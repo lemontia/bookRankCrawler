@@ -38,6 +38,16 @@
 cd frontend/bot-admin/
 npm start
 ~~~
+- telegram token 이 등록되어 있지 않으면 에러가 발생합니다
+~~~
+java.lang.RuntimeException: 텔레그램 챗봇 API Token 을 입력해 주세요(application-*.properties)
+~~~
+
+등록위치
+application.properties
+~~~
+telegram.token=[token]
+~~~
 
 
 ## 기타
